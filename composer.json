@@ -1,0 +1,29 @@
+{
+    "name": "alexsimonovgit/gcd",
+    "type": "project",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.8"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "license": "MIT",
+    "bin": ["bin/GCD.php"],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php",
+            "src/Db.php"
+        ],
+        "psr-4": {
+            "AlexSimonovGit\\Gcd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlexSimonovGit",
+            "email": "zerolkashow@gmail.com"
+        }
+    ]
+}
