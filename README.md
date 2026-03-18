@@ -36,6 +36,7 @@ php bin/GCD
 
 ./bin/GCD
 Установка через Packagist
+https://packagist.org/packages/alexsimonovgit/gcd
 composer require alexsimonovgit/gcd
 После установки запуск:
 
